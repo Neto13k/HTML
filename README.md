@@ -1,2 +1,2 @@
 # Primeiro-HTML
-Primeiro projeto HTML onde foi criado um curriculo
+Após realizar o primeiro arquivo HTMl Realizei agora a criação do primeiro arquivo css
