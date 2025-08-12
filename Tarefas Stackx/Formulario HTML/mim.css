@@ -37,14 +37,13 @@ main section h1, main section h2 {
 }
 
 img {
-    max-width: 100%;
+    max-width: 40%;
     height: auto;
-    display: fixed;
+    display: block;
     margin-top: 10px;
     border-radius: 8px;
 }
 
-/* Tabela */
 table {
     width: 100%;
     border-collapse: collapse;
@@ -65,7 +64,6 @@ th {
     color: white;
 }
 
-/* Formulário */
 form {
     background: #fff;
     padding: 15px;
