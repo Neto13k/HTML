@@ -5,49 +5,67 @@
 }
 
 body {
-    
-    height: 100vh;
+    min-height: 100vh;
     background-image: url(https://plus.unsplash.com/premium_photo-1664303773101-6376f5732b41?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTg3fHxwcm9ncmFtYSVDMyVBNyVDMyVBM298ZW58MHx8MHx8fDA%3D);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
+    justify-content: flex-start;
+    align-items: center;
     flex-direction: column;
-    text-align: center
-
+    font-family: "Libre Baskerville", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 
 h1 {
     color: white;
     font-size: 4rem;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 
 h2 {
     color: white;
-    font-size: 2em;
-    margin-bottom: 50px;
+    font-size: 2rem;
+    margin-bottom: 20px;
 }
 
 p {
     color: white;
-    margin-bottom: 100px;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
 }
 
 ul {
-    display: inline-block;
-    padding: 0;
+    display: flex;
+    justify-content: center;
     gap: 20px;
-    color: white;
+    list-style: none;
+    margin-top: 10px;
+    color: brown;
 }
 
 li {
     color: white;
-    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.4);
+    font-weight: bold;
 }
 
-@media (max-width: 1900px) {
-    header {
+@media (max-width: 1920px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    h2 {
         font-size: 1.5rem;
-        padding: 15px;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    ul {
+        flex-direction: column;
+        gap: 10px;
     }
 }
